@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #004AAD;
+    margin: 0px;
+}
+
+header {
+    background-color: #38B6FF;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+nav {
+    background-color: #3a86ff;
+    font-family: 標楷體;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav a {
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #90e0ef;
+    color: white;
+}
+
+article {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    border-color: black 5px solid;
+    border-radius: 20px;
+}
+
+p {
+    font-family: 標楷體;
+    font-size: 18px;
+}
+
+.photo {
+    width: 400px;
+    height: 300px;
+    border: white 3px solid;
+}
+
+.img_vertical {
+    width: 300px;
+    height: 300px;
+    margin: 50px 30px;
+    border-radius: 50%;
+    border: white medium solid;
+}
+
+.img_square {
+    width: 100px;
+    height: 100px;
+}
+
+.img_sq {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+table {
+    width: 500px;
+    height: 250px;
+    margin: auto;
+}
+
+td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+td div {
+    border: white medium dotted;
+    background-color: #90e0ef;
+}
+
+footer {
+    background-color: #00b4d8;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-color: black 5px solid;
+    border-radius: 20px;
+}
+
+.content {
+    background-color: #38B6FF;
+    margin: 10px;
+    padding: 5px;
+    border-color: black 5px solid;
+    border-radius: 20px;
+}
+
+.intro {
+    background-color: #caf0f8;
+    margin: 10px 450px 10px 350px;
+    padding: 10px;
+    border: black medium solid;
+}
+
+.font {
+    font-size: 20px;
+    font-family: 微軟正黑體;
+}
+
+.float {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
