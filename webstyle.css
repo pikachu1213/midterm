@@ -130,3 +130,106 @@ footer {
 .clearfix {
     clear: both;
 }
+
+.border {
+    margin: 20px 30px;
+    border: white dotted 2px;
+    width: 700px;
+}
+
+div li {
+    margin: 3px;
+    width: 100px;
+    border-right-style: solid;
+    border-right-color: red;
+}
+
+.pro_50 {
+    animation: pro50 2s ease-out;
+    border-right-width: 100px;
+}
+
+@keyframes pro50 {
+    0% {
+        border-right-width: 100px;
+    }
+
+    100% {
+        border-right-width: 100px;
+    }
+}
+
+.pro_60 {
+    animation: pro60 2s ease-out;
+    border-right-width: 200px;
+}
+
+@keyframes pro60 {
+    0% {
+        border-right-width: 100px;
+    }
+
+    100% {
+        border-right-width: 200px;
+    }
+}
+
+.pro_65 {
+    animation: pro65 2s ease-out;
+    border-right-width: 250px;
+}
+
+@keyframes pro65 {
+    0% {
+        border-right-width: 100px;
+    }
+
+    100% {
+        border-right-width: 250px;
+    }
+}
+
+.pro_80 {
+    animation: pro80 2s ease-out;
+    border-right-width: 400px;
+}
+
+@keyframes pro80 {
+    0% {
+        border-right-width: 100px;
+    }
+
+    100% {
+        border-right-width: 400px;
+    }
+}
+
+.pro_85 {
+    animation: pro85 2s ease-out;
+    border-right-width: 450px;
+}
+
+@keyframes pro85 {
+    0% {
+        border-right-width: 100px;
+    }
+
+    100% {
+        border-right-width: 450px;
+    }
+}
+
+.pro_90 {
+    animation: pro90 2s ease-out;
+    border-right-width: 500px;
+}
+
+@keyframes pro90 {
+    0% {
+        border-right-width: 100px;
+    }
+
+    100% {
+        border-right-width: 500px;
+    }
+}
